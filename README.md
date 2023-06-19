@@ -1,9 +1,47 @@
-# libldac_16.04-1_amd64.deb
-ldacBT-master , bluetooth , aosp , demo , warning
+ Griggorii@gmail.com
 
-Не известно работает эта штука или нет я так и не понял пока только собрал возможно она конфликтует с bluz и другими 
-, но что бы собрать пришлось долго искать всякие зависимости и инклюды.
+Run terminal folder bluetooth_5.53 bluez ubuntu 20.04 amd64 deb
 
-Установка sudo dpkg -i libldac_16.04-1_amd64.deb удаление из synaptic  поиске вбиваем griggorii емаилы я там оставил что бы по ним искать и в случае проблем с bluetooth удаляем пакет libldac
+Run terminal location .deb .tar.xz command
 
-Исходник тут https://github.com/EHfive/ldacBT.git
+$ sudo tar xvpf bluetooth-sendto.tar.xz -C/
+
+$ sudo dpkg -i *.deb
+
+sudo rm -rf /var/lib/bluetooth/* && dconf reset -f /org/blueman/plugins/recentconns/
+
+Reboot
+
+Test rebuild realtime connect fix disconnect aceline TWS LightPods Basic mainframe pair aceline LightPods Basic
+
+_______________________________________________________________________________________
+
+Not gui command console terminal example
+
+Command
+
+$bluetoothctl
+
+remove 08:08:G8:88:88:BF addres example ! New adress connect scan !
+
+[LightPods Basic]# remove 08:08:G8:88:88:BF
+
+Command scan on
+
+[bluetooth]# scan on
+
+connect 08:08:G8:88:88:BF
+
+[bluetooth]#  connect 08:08:G8:88:88:BF
+
+All command info example help
+
+[LightPods Basic]# help
+
+Problem.. problem not stable android best connect stable not lag
+
+Fri fast tap sensor test LEFT and RIGHT volime + -
+
+
+
+
